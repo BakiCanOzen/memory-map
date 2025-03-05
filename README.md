@@ -76,4 +76,84 @@ We welcome contributions! Follow these steps to contribute:
 This project is licensed under the **MIT License**.
 
 ---
+# Memory Map
+Memory Map, kullanıcıların harita üzerinde konum işaretleyerek anılarını eklemelerini sağlayan bir uygulamadır. Bu uygulama, kullanıcıların yıllar sonra bu anıları yeniden keşfetmelerine olanak tanır. Kullanıcılar her anıya fotoğraf ekleyebilir ve bunları harita üzerinde işaretleyicilerle görselleştirebilir.
+
+---
+
+## Özellikler
+- **Anı Ekleme**: Kullanıcılar, bulundukları konumda anı kaydedebilir.
+- **Medya Desteği**: Anılara fotoğraf ekleyerek daha zengin bir deneyim sağlar.
+- **Harita Görselleştirme**: Anılar, etkileşimli bir harita üzerinde işaretleyiciler olarak gösterilir.
+- **Kullanıcı Arayüzü**: Modern ve kullanıcı dostu bir tasarıma sahiptir.
+- **Güvenli Veri Depolama**: Firebase ile veriler güvenli bir şekilde saklanır.
+
+---
+
+## Kullanılan Teknolojiler
+- **Flutter**: Çapraz platform uygulama geliştirme için kullanılır.
+- **Firebase**: Kimlik doğrulama ve veritabanı depolama için kullanılır.
+- **Google Maps API**: Anıları harita üzerinde görselleştirmek için kullanılır.
+
+---
+
+## Başlangıç
+Bu proje, Flutter ve Firebase kullanılarak geliştirilmiştir. Aşağıdaki adımları takip ederek projeyi yerel ortamınızda çalıştırabilirsiniz.
+
+### Gereksinimler
+Aşağıdaki araçların kurulu olduğundan emin olun:
+- Flutter SDK
+- Firebase hesabı
+- Google Cloud API Anahtarı
+- Android Studio veya Visual Studio Code
+
+### Kurulum ve Yapılandırma
+1. **Depoyu klonlayın**:
+   ```sh
+   git clone https://github.com/BakiCanOzen/memory-map.git
+   cd memory-map
+   ```
+2. **Firebase’i yapılandırın**:
+   - Firebase üzerinde yeni bir proje oluşturun.
+   - Firebase Authentication ve Firestore'u etkinleştirin.
+   - Firebase yapılandırma dosyalarını (`google-services.json` - Android için, `GoogleService-Info.plist` - iOS için) indirip proje klasörüne ekleyin.
+3. **Bağımlılıkları yükleyin**:
+   ```sh
+   flutter pub get
+   ```
+4. **Projeyi çalıştırın**:
+   ```sh
+   flutter run
+   ```
+
+---
+
+## Firebase Yapılandırması
+1. [Firebase Konsolu](https://console.firebase.google.com/) üzerinden bir Firebase projesi oluşturun.
+2. **Firebase Authentication** ve **Firestore Database** özelliklerini etkinleştirin.
+3. Resmi [Firebase Flutter kurulumu](https://firebase.flutter.dev/) kılavuzunu takip ederek Firebase SDK’sını projenize ekleyin.
+4. Gerekli izinleri ve yapılandırmaları doğru şekilde ayarlayın.
+
+---
+
+## Katkıda Bulunma
+Projeye katkıda bulunmak isterseniz aşağıdaki adımları takip edebilirsiniz:
+1. **Bu depoyu forklayın**.
+2. **Yerel olarak değişiklik yapın**.
+3. **Değişiklikleri içeren bir pull request gönderin**.
+
+---
+
+## İletişim
+- **Proje Yöneticisi**: Baki Can Özen  
+- **GitHub**: [BakiCanOzen](https://github.com/BakiCanOzen)
+
+---
+
+## Lisans
+Bu proje, **MIT Lisansı** kapsamında lisanslanmıştır.
+
+---
+
+
 
