@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "320442928429",
+    "project_id": "memorymap-2b7dc",
+    "storage_bucket": "memorymap-2b7dc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320442928429:android:e3d3c89256c4d366da17a4",
+        "android_client_info": {
+          "package_name": "com.bakicanozen.memory_map"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYnL9WFD3U50NMz_7hrhR1N7kuJZWcFyA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
